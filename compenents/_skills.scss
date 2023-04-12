@@ -1,0 +1,16 @@
+.skills__data {
+  display: grid;
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 1fr 1fr;
+  row-gap: 5rem;
+}
+.skills__data-item {
+  font-size: var(--font-size-38);
+  font-weight: var(--font-weight-semi-bold);
+}
+.duration-learn {
+  margin-top: 1rem;
+  display: block;
+  font-weight: var(--font-weight-regular);
+  font-size: var(--font-size-20);
+}

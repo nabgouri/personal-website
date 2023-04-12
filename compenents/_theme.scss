@@ -1,0 +1,8 @@
+html:has(.toggle__checkbox:checked) {
+  --background-clr: var(--clr-black);
+  --clr-text: var(--clr-white);
+  --clr-box-img: var(--clr-green);
+  --clr-link-bg: var(--clr-green);
+  --clr-grey: #080808;
+  --clr-input-border: var(--clr-white);
+}

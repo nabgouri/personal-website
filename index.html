@@ -1,0 +1,274 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./styles/style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&family=Raleway:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+    <title>Ayman Nabgouri</title>
+  </head>
+  <body>
+    <div class="container">
+      <video class="video-loop" autoplay loop>
+        <source src="./video-loop.mp4" />
+      </video>
+      <header class="header">
+        <label class="humber-menu" for="menu">
+          <div class="humber-menu-bar"></div>
+          <div class="humber-menu-bar"></div>
+          <div class="humber-menu-bar"></div>
+        </label>
+        <input type="checkbox" id="menu" class="humber-menu-checkbox" />
+        <nav class="nav">
+          <ul class="nav__list">
+            <li><a href="#bio" class="nav__link bio__nav">Bio</a></li>
+            <li><a href="#skills" class="nav__link skills__nav">Skills</a></li>
+            <li><a href="#media" class="nav__link media__nav">Media</a></li>
+            <li>
+              <a href="#project" class="nav__link project__nav">Projects</a>
+            </li>
+            <li>
+              <a href="#clients" class="nav__link clients__nav">My Clients</a>
+            </li>
+            <li>
+              <a href="#contact" class="nav__link contact__nav">Contact</a>
+            </li>
+          </ul>
+        </nav>
+        <div class="toggle">
+          <h3 class="toggle__title">Switch Theme</h3>
+          <input
+            type="checkbox"
+            name="toggle checkbox"
+            id="toggle"
+            class="toggle__checkbox"
+          />
+          <label for="toggle" class="toggle__label"></label>
+        </div>
+      </header>
+
+      <section id="bio" class="bio section">
+        <div class="bio__data">
+          <h1 class="bio__title">
+            Hi There, I'm A Passionate Software Enginner
+          </h1>
+          <p class="bio__objective">
+            My name is
+            <span class="bio__name">Ayman Nabgouri,</span>
+            a front-end developer and you can find me on
+            <a
+              href="https://www.linkedin.com/in/ayman-nabgouri-a36122229/"
+              target="_blank"
+              class="bio__linkedin"
+              >linkedin</a
+            >
+          </p>
+          <a href="#contact" class="bio__links say-hi-link">Say Hi</a>
+          <a href="#" class="bio__links find-out-link"
+            >Download CV <span class="bio__arrow">&darr;</span></a
+          >
+        </div>
+        <div class="bio__pic-content">
+          <img
+            src="./images/personal-pic.png"
+            alt="image of ayman nabgouri"
+            class="bio__pic"
+          />
+        </div>
+      </section>
+      <section id="skills" class="skills section section-with-bg">
+        <h2 class="h2-heading">SKILLS</h2>
+        <ul class="skills__data">
+          <li class="skills__data-item">
+            HTML
+            <span class="duration-learn">8 Years</span>
+          </li>
+          <li class="skills__data-item">
+            CSS
+            <span class="duration-learn">8 Years</span>
+          </li>
+          <li class="skills__data-item">
+            Javascript
+            <span class="duration-learn">8 Years</span>
+          </li>
+          <li class="skills__data-item">
+            React
+            <span class="duration-learn">4 Years</span>
+          </li>
+          <li class="skills__data-item">
+            Redux
+            <span class="duration-learn">3 Years</span>
+          </li>
+          <li class="skills__data-item">
+            React testing library
+            <span class="duration-learn">1 Years</span>
+          </li>
+        </ul>
+      </section>
+      <section id="media" class="media section">
+        <video class="media__video" poster="./images/thumbnail.jpg" controls>
+          <source src="./video.mp4" />
+        </video>
+      </section>
+      <section id="project" class="project section">
+        <h2 class="h2-heading">
+          MY FEATURED <br />
+          PROJECTS
+        </h2>
+        <div class="project__main">
+          <img
+            class="project__img"
+            src="./images/project-1.jpg"
+            alt="project_1"
+          />
+          <div class="project__data">
+            <h3 class="h3-heading">
+              Quran Tab <br />
+              Extension
+            </h3>
+            <p class="project__objective">
+              Quran Tab is an Islamic new tab page that will keep you inspired
+              by a verse from the Quran every time you open a new tab that helps
+              you achieve your "Khatma" and keeps you connected with the words
+              of Allah.
+            </p>
+            <a
+              class="browser-link"
+              href="https://chrome.google.com/webstore/detail/quran-tab/afaihcdgkjebgabomemccdneglknjkdd"
+              >Chrome link</a
+            ><a
+              class="browser-link"
+              href="https://microsoftedge.microsoft.com/addons/detail/quran-tab/hnfepfakgcalolgicjdfmaaellnondji"
+              >Edge link</a
+            >
+          </div>
+          <div class="project__data test-2">
+            <h3 class="h3-heading">
+              Quran Station <br />
+              Extension
+            </h3>
+            <p class="project__objective">
+              Small extension that gives you access to over 100 stations to help
+              you listen to the Quran from your favorite reciters easily
+              Quran-Station has over 100 stations to help you listen to the
+              Quran from your favorite reciters in a quick and easy way.
+            </p>
+            <a
+              class="browser-link"
+              href="https://chrome.google.com/webstore/detail/quran-tab/afaihcdgkjebgabomemccdneglknjkdd"
+              >Chrome link</a
+            >
+            <a
+              class="browser-link"
+              href="https://addons.mozilla.org/en-US/firefox/addon/quran-station/"
+              >FireFox link</a
+            ><a
+              class="browser-link"
+              href="https://microsoftedge.microsoft.com/addons/detail/quran-tab/hnfepfakgcalolgicjdfmaaellnondji"
+              >Edge link</a
+            >
+          </div>
+          <img
+            class="project__img test"
+            src="./images/project-2.jpg"
+            alt="project-2"
+          />
+        </div>
+      </section>
+      <section id="clients" class="clients section section-with-bg">
+        <h2 class="h2-heading">WHAT MY CLIENTS SAYS.</h2>
+        <div class="clients__opinions">
+          <div class="clients__wrapper">
+            <p class="clients__review">
+              Abusrea has the advantageous ability to understand a problem and
+              implement code to a high standard within the deadline. Each
+              project we have worked on, I know I can completely trust Abusrea
+              to own his tasks and complete what is needed when asked of him.
+            </p>
+            <p class="clients__review">
+              Mohamed will patiently listen to you and give you his own Ideas as
+              well, and in the end, he comes up with something completely
+              different from what you’re expecting, but the good news is, you’ll
+              always love it.
+            </p>
+            <p class="clients__review">
+              I had a chance to work closely with Mohamed as a direct manager
+              from hist first day at DeliveryHero until my last day there
+              (6+months). Mohamed's biggest strengths that I admire are taking
+              initiatives on personal and team level, and driving them.
+            </p>
+          </div>
+        </div>
+      </section>
+      <section id="contact" class="contact section">
+        <div class="contact_data">
+          <p class="contact__descreption">
+            Feel free to reach out to me any time. I prefer to talk over email,
+            especially since we may be a few time zones away.
+          </p>
+          <a href="mailto:example@gamil.com" class="contact__gmail"
+            >example@gmail.com</a
+          >
+          <div class="contact__socials">
+            <a href="#" class="contact__social"
+              ><img src="./images/brand/facebook.svg" alt="facebook link"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img src="./images/brand/github.svg" alt="github link"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img src="./images/brand/instagram.svg" alt="instagram link"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img src="./images/brand/LinkedIn.svg" alt="linkedin link"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img src="./images/brand/twitter.svg" alt="twitter link"
+            /></a>
+            <a href="#" class="contact__social"
+              ><img src="./images/brand/youtube.svg" alt="youtube link"
+            /></a>
+          </div>
+        </div>
+        <div class="contact__form">
+          <h2 class="h2-heading">LET’S WORK TOGETHER!</h2>
+          <form action="results.html">
+            <div class="contact__inputs">
+              <input
+                required
+                name="fullName"
+                class="contact__input"
+                type="text"
+                placeholder="Full Name"
+              />
+              <input
+                required
+                name="Telephone"
+                pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                class="contact__input"
+                type="tel"
+                placeholder="Phone NO."
+              />
+            </div>
+            <textarea
+              placeholder="Your Message"
+              class="contact__input contact__textarea"
+              name="descreption"
+              id="descreption"
+              row="1"
+              required
+            ></textarea>
+            <input class="contact__button" type="submit" value="Send Message" />
+          </form>
+        </div>
+      </section>
+      <footer class="footer">&#169; 2022 by Ayman Nabgouri</footer>
+    </div>
+  </body>
+</html>

@@ -1,0 +1,41 @@
+:root {
+  --container-width: 119rem;
+  --gutter: 2rem;
+
+  --clr-white: #fff;
+  --clr-black: #000;
+  --clr-blue: #2374e1;
+  --clr-light-blue: #1d9bf0;
+  --clr-dark-blue: #0a66c2;
+  --clr-darker-blue: #143ce8;
+  --clr-red: #f00;
+  --clr-green: #03a696;
+  --clr-grey: #f6f6f6;
+  --clr-dark-green: #42959b;
+
+  --background-clr: var(--clr-white);
+  --clr-text: var(--clr-black);
+  --clr-box-img: var(--clr-black);
+  --clr-link-bg: var(--clr-black);
+  --clr-input-border: var(--clr-black);
+
+  --font-family-Raleway: "Raleway", sans-serif;
+  --font-family-Poppins: "Poppins", sans-serif;
+
+  --font-weight-regular: 400;
+  --font-weight-medium: 500;
+  --font-weight-semi-bold: 600;
+  --font-weight-bold: 700;
+
+  --font-size-70: 7rem;
+  --font-size-65: 6.5rem;
+  --font-size-40: 4rem;
+  --font-size-38: 3.8rem;
+  --font-size-24: 2.4rem;
+  --font-size-22: 2.2rem;
+  --font-size-20: 2rem;
+  --font-size-18: 1.8rem;
+  --font-size-15: 1.5rem;
+
+  --tramsition-timing: 0.3s;
+}

@@ -1,0 +1,28 @@
+.project__main {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 1fr 1fr;
+  align-items: center;
+  row-gap: 7.5rem;
+  column-gap: 7.4rem;
+}
+.project__data {
+  align-items: center;
+}
+
+.project__objective {
+  margin-block: 2.7rem;
+  line-height: 1.5;
+}
+.project__img {
+  box-shadow: 0 0 0.5rem rgb(0, 0, 0, 0.2);
+  max-width: 100%;
+}
+.browser-link {
+  color: var(--clr-darker-blue);
+  font-weight: var(--font-weight-medium);
+  font-family: var(--font-family-Poppins);
+}
+.browser-link + .browser-link {
+  margin-left: 2rem;
+}
